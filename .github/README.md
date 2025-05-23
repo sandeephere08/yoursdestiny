@@ -1,108 +1,182 @@
-━━━━━━━━━━━━━━━━━━━━
+# 🎵 CrushiMusic Bot
+
+A powerful Telegram Music Bot with advanced features and high-quality audio streaming.
+
+## 🚀 Features
+
+- 🎧 High-quality music streaming
+- 📱 User-friendly interface
+- 🎯 Multiple streaming modes
+- 🎨 Beautiful UI with video previews
+- 🔍 Advanced search capabilities
+- 📋 Playlist support
+- 🎮 Interactive controls
+- 🌐 Multi-language support
+
+## 🎥 Preview
+
+[![CrushiMusic Bot](https://files.catbox.moe/m5g5kj.mp4)](https://files.catbox.moe/m5g5kj.mp4)
+
+## 🛠️ Setup
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Suraj08832/surajmusic.git
+cd surajmusic
+```
+
+2. Install requirements:
+```bash
+pip install -r requirements.txt
+```
+
+3. Configure environment variables:
+- Copy `sample.env` to `.env`
+- Fill in your credentials
+
+4. Run the bot:
+```bash
+python -m crushi
+```
+
+## 📝 Commands
+
+- `/start` - Start the bot
+- `/help` - Show help menu
+- `/play` - Play music
+- `/skip` - Skip current track
+- `/pause` - Pause music
+- `/resume` - Resume music
+- `/stop` - Stop music
+- `/queue` - Show queue
+- `/settings` - Bot settings
+
+## 🔧 Configuration
+
+Required environment variables:
+- `API_ID` - Telegram API ID
+- `API_HASH` - Telegram API Hash
+- `BOT_TOKEN` - Bot token from @BotFather
+- `MONGO_DB_URI` - MongoDB connection string
+- `LOG_GROUP_ID` - Log group ID
+
+## 📞 Support
+
+Join our support group for help and updates:
+- [Support Group](https://t.me/chamber_of_heart1)
+- [Support Channel](https://t.me/+AzKGhJreNmhiZTll)
+
+## ⭐ Credits
+
+- [Pyrogram](https://github.com/pyrogram/pyrogram)
+- [Pytgcalls](https://github.com/pytgcalls/pytgcalls)
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 <h2 align="center">
-    ──「⛦🦋 𝗕𝗥𝗔𝗡𝗗𝗥𝗗 ✘ 𝗠𝗨𝗦𝗜𝗖 🦋⛦」──
+    ─「 ‌𝗭𝗲‌𝗳𝗿𝗼‌𝗻 𝘅 𝐌ᴜsɪᴄ 」─
 </h2>
 
-<p align="center">
-  <img src="https://telegra.ph/file/d02b81736a7e9519c6386.jpg">
-</p>
+## 👑 Owner
+
+**Name:** 𐏓 𝅥‌꯭𝆬ᷟ𝐣‌‌‌➥‌𝗭𝗲‌𝗳𝗿𝗼‌𝗻 ‌🔥❰⎯꯭ ꭗ‌‌ 🍂  
+**Username:** [@crush_hu_tera](https://t.me/crush_hu_tera)
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=ㅤ+𝚆𝙴𝙻𝙲𝙾𝙼𝙴+𝚃𝙾+ZEFRON+𝙼𝚄𝚂𝙸𝙲+𝚁𝙴𝙿𝙾+;ㅤ+𝚃𝙷𝙸𝚂+𝙸𝚂+𝙰+𝙰𝙳𝚅𝙰𝙽𝙲𝙴+𝙼𝚄𝚂𝙸𝙲+𝙱𝙾𝚃;𝙿𝙾𝚆𝙴𝚁𝙴𝙳+𝙱𝚈+☞+ZEFRON)](https://github.com/Suraj08832/surajmusic)
+
+
 
 <p align="center">
-<a href="https://github.com/WCGKING/stargazers"><img src="https://img.shields.io/github/stars/WCGKING/destinymusic?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
-<a href="https://github.com/WCGKING/destinymusic/network/members"> <img src="https://img.shields.io/github/forks/WCGKING/destinymusic?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
-<a href="https://github.com/WCGKING/destinymusic/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
-<a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-orange?style=for-the-badge&logo=python" alt="Python" /> </a>
-<a href="https://github.com/WCGKING/destinymusic/commits/WCGKING"> <img src="https://img.shields.io/github/last-commit/WCGKING/destinymusic?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
+  <img src="https://files.catbox.moe/xswtiz.jpg">
 </p>
 
-━━━━━━━━━━━━━━━━━━━━
-</h2>
-<img src="https://readme-typing-svg.herokuapp.com?color=FF0000&width=420&lines=♦𝙳𝙴𝙿𝙻𝙾𝚈+𝙾𝙽+𝙷𝙴𝚁𝙾𝙺𝚄♦;📡+𝙽𝙾+𝙷𝙴𝚁𝙾𝙺𝚄+𝙱𝙰𝙽+𝙸𝚂𝚂𝚄𝙴+𝙰𝙻𝚂𝙾+𝚅𝙿𝚂+𝙳𝙴𝙿𝙻𝙾𝚈+📍+𝙿𝚁𝙴𝚂𝙴𝙽𝚃;❤️+𝙿𝙾𝚆𝙴𝚁𝙳+𝙱𝚈+𝗕𝗥𝗔𝗡𝗗𝗘𝗗+𝗞𝗜𝗡𝗚🔥">
 
-<p align="center">
-  <img src="https://telegra.ph/file/925eade709484516c5fe3.jpg">
-</p>
+
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝗙𝗢𝗥𝗞+𝗧𝗛𝗜𝗦+𝗥𝗘𝗣𝗢+𝗕𝗘𝗙𝗢𝗥𝗘+𝗗𝗘𝗣𝗟𝗢𝗬)
+
+## ⚠️ 𝗗𝗜𝗦𝗖𝗟𝗔𝗜𝗠𝗘𝗥
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+👉🏻 ʜᴇʏ ɢᴜʏ's, ᴅᴏɴ'ᴛ ᴜsᴇ ʏᴏᴜʀ ʀᴇᴀʟ ɪ'ᴅ sᴇssɪᴏɴ ᴀs ᴀ ᴀssɪsᴛᴀɴᴛ ʙᴄᴏᴢ ᴛʜᴇ ᴀssɪsᴛᴀɴᴛ ᴡɪʟʟ ʟᴇᴀᴠᴇ ᴀʟʟ ᴛʜᴇ ɢʀᴏᴜᴘs & ᴄʜᴀɴɴᴇʟs.ᴜ  ᴍɪɢʜᴛ ʟᴏᴏsᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs ᴏᴡɴᴇʀsʜɪᴘ ᴀɴᴅ ᴀᴅᴍɪɴsʜɪᴘ 🥺 sᴏ ᴜsᴇ ʏᴏᴜʀ ᴀɴʏ ᴏᴛʜᴇʀ ɪ'ᴅ sᴇssɪᴏɴ 👈🏻
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+## 🖇 Generating Pyrogram String Session
+
+<p>
+<a href="https://t.me/destinyy_MUSIC_BOT"><img src="https://img.shields.io/badge/TG%20String%20Gen%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a>
+<a href="https://t.me/chamber_of_heart1"><img src="https://img.shields.io/badge/CRUSH%20MUSIC%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a>
+
 
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
+
+<h3> 𝗛𝗘𝗥𝗢𝗞𝗨 𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗕𝗨𝗧𝗧𝗢𝗡 </h3>
 </h3>
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/WCGKING/destinymusic"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Suraj08832/surajmusic"> <img src="https://graph.org/file/7758e15f135e166b8637d.jpg" width="520" height="198.45"/></a></p>
+
+
+
+<p align="center">
+<a href="https://t.me/CRUSH_HU_TERA"><img src="https://img.shields.io/badge/-☆𝐃𝐌 𝐓𝐎 ZEFRON%20☆-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
-
-**𝙏𝙀𝙎𝙏 𝘽𝙊𝙏 ➣ [˹𝐁ʀᴀɴᴅᴇᴅ ꭙ 𝐂ʀᴇᴡ ꭙ 𝐌ᴜꜱɪᴄ™ ˹ʙꜱ](https://t.me/CrewMusic_bot)**
-
-
-
-<img src="https://readme-typing-svg.herokuapp.com?color=FF0000&width=420&lines=⚠️𝗙𝗢𝗥𝗞+𝗧𝗛𝗜𝗦+𝗥𝗘𝗣𝗢+𝗙𝗜𝗥𝗦𝗧𝗟𝗬⚠️">
-
+<p align="center">
+<a href="https://t.me/crush_hu_tera"><img src="https://img.shields.io/badge/-☆𝐃𝐌 𝐓𝐎 ZEFRON%20☆-blue.svg?style=for-the-badge&logo=Telegram"></a>
+</p>
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─
 </h3>
 
-- Get your [Necessary Variables](https://github.com/WCGKING/destinymusic/blob/master/sample.env)
----
-
-### 🔧 Quick Setup
-
-1. **Upgrade & Update:**
-   ```bash
-   sudo apt-get update && sudo apt-get upgrade -y
-   ```
-
-2. **Install Required Packages:**
-   ```bash
-   sudo apt-get install python3-pip ffmpeg -y
-   ```
-3. **Setting up PIP**
-   ```bash
-   sudo pip3 install -U pip
-   ```
-4. **Installing Node**
-   ```bash
-   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash && source ~/.bashrc && nvm install v18
-   ```
-5. **Clone the Repository**
-   ```bash
-   git clone https://github.com/WCGKING/destinymusic && cd destinymusic
-   ```
-6. **Install Requirements**
-   ```bash
-   pip3 install -U -r requirements.txt
-   ```
-7. **Create .env  with sample.env**
-   ```bash
-   cp sample.env .env
-   ```
-   - Edit .env with your vars
-8. **Editing Vars:**
-   ```bash
-   vi .env
-   ```
-   - Edit .env with your values.
-   - Press `I` button on keyboard to start editing.
-   - Press `Ctrl + C`  once you are done with editing vars and type `:wq` to save .env or `:qa` to exit editing.
-9. **Installing tmux**
-    ```bash
-    sudo apt install tmux -y && tmux
-    ```
-10. **Run the Bot**
-    ```bash
-    bash start
+- Get your [Necessary Variables](https://github.com/Suraj08832/surajmusic/tree/master)
+- Upgrade and Update by :
+`sudo apt-get update && sudo apt-get upgrade -y`
+- Install Ffmpeg by :
+`sudo apt-get install python3-pip ffmpeg -y`
+- Install required packages by :
+`sudo apt-get install python3-pip -y`
+- Install pip by :
+`sudo pip3 install -U pip`
+- Install Node js by :
+`curl -fssL https://deb.nodesource.com/setup_18.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm`
+- Clone the repository by :
+`git clone  && cd MUSARRAT`
+- Install requirements by :
+`pip3 install -U -r requirements.txt`
+- Fill your variables in the env by :
+`vi sample.env`<br>
+Press `I` on the keyboard for editing env<br>
+Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
+- Rename the env file by :
+`mv sample.env .env`
+- Install tmux to keep running your bot when you close the terminal by :
+`sudo apt install tmux && tmux`
+- Finally run the bot by :
+`bash start`
+- For getting out from tmux session : Press `Ctrl+b` and then `d`<br>
 ━━━━━━━━━━━━━━━━━━━━
+### Contact :
+<a href="https://t.me/crush_hu_tera"><img title="Telegram" src="https://img.shields.io/badge/Telegram-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a>
 
 <h3 align="center">
-    ─「 sᴜᴩᴩᴏʀᴛ 」─
+    ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ 」─
 </h3>
 
-<p align="center">
-<a href="https://t.me/+AzKGhJreNmhiZTll"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
-</p>
-
-<p align="center">
-<a href="https://t.me/chamber_of_heart1"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
-</p>
-
-- <b> _sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [ᴛᴇᴀᴍ 𐏓 𝅥‌꯭𝆬ᷟ𝐣‌‌‌➥‌𝗭𝗲‌𝗳𝗿𝗼‌𝗻 ‌🔥❰⎯꯭ ꭗ‌‌ 🍂](https://github.com/WCGKING) ғᴏʀ [𐏓 𝅥‌꯭𝆬ᷟ𝐣‌‌‌➥‌𝗭𝗲‌𝗳𝗿𝗼‌𝗻 ‌🔥❰⎯꯭ ꭗ‌‌ 🍂 ᴍᴜsɪᴄ ʙᴏᴛ](https://t.me/chamber_of_heart1)_</b>
+1. First, fork this repository
+2. Go to [Railway](https://railway.app/)
+3. Create a new project
+4. Choose "Deploy from GitHub repo"
+5. Select your forked repository
+6. Add the following environment variables:
+   - `API_ID`: Your Telegram API ID
+   - `API_HASH`: Your Telegram API Hash
+   - `BOT_TOKEN`: Your Bot Token
+   - `SESSION_STRING`: Your Pyrogram Session String
+   - `MUSIC_BOT_NAME`: Your Music Bot Name
+   - `ASSISTANT_NAME`: Your Assistant Name
+   - `OWNER_ID`: Your Telegram User ID
+7. Click "Deploy Now"
+8. Wait for the deployment to complete
+9. Your bot will be live at the URL provided by Railway
